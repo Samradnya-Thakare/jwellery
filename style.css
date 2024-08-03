@@ -1,0 +1,53 @@
+.box{
+    background-color: white;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border: 20px solid #d7b48e;
+
+    font-size: 40px;
+    color: white;
+    display: block;
+    margin:  auto;
+    padding: 40px;
+    text-align: center;
+    
+  } 
+  .Jwellery-model{
+    width: 500px;
+    height: 800px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: -2px 5px 23px 13px  #392714;
+
+  } 
+  .Jwellery-model:hover{
+   border: 2px solid #392714;
+   transition: 0.3s;
+   border-radius: 10px;
+   size: 100px;
+
+  }
+
+ .text{
+    color: hsl(31, 48%, 15%);
+    font-family: Dancing Script;
+    font-size: 43px;
+    
+   }
+   .box2{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: double 5px #d7b48e;
+    
+   }
+   .necklace{
+    width: 500px;
+    height: 280px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+   }
