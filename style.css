@@ -23,11 +23,10 @@
 
   } 
   .Jwellery-model:hover{
-   border: 2px solid #392714;
    transition: 0.3s;
    border-radius: 10px;
    size: 100px;
-
+   box-shadow: 10px 10px 20px 1px #392714;
   }
 
  .text{
@@ -50,4 +49,17 @@
     display: block;
     margin: 10px auto;
     border-radius: 10px;
+   }
+   .Jwellery-img:hover{
+    border-radius: 60px;
+    box-shadow: 10px 10px 20px 1px #392714;
+    transition: 0.5s;
+   }
+   .title{
+    color: hsl(31, 48%, 15%);
+    font-family: Dancing Script;
+    font-size: 43px;
+    display: block;
+    margin: 10px auto;
+    font-weight: 700;
    }
