@@ -1,120 +1,180 @@
-.box{
+.box {
+  background-color: white;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border: 20px solid #d7b48e;
+
+  font-size: 40px;
+  color: white;
+  display: block;
+  margin: auto;
+  padding: 40px;
+  text-align: center;
+
+}
+
+.Jwellery-model {
+  width: 500px;
+  height: 800px;
+  display: block;
+  margin: auto;
+  border-radius: 50px;
+  box-shadow: -2px 5px 23px 13px #392714;
+
+}
+
+.Jwellery-model:hover {
+  transition: 0.3s;
+  border-radius: 10px;
+  size: 100px;
+  box-shadow: 10px 10px 20px 1px #392714;
+}
+
+.text {
+  color: hsl(31, 48%, 15%);
+  font-family: Dancing Script;
+  font-size: 43px;
+}
+
+.box2 {
+  display: block;
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: double 5px #d7b48e;
+
+}
+
+.Jwellery-img {
+  width: 500px;
+  height: 280px;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+.Jwellery-img:hover {
+  border-radius: 60px;
+  box-shadow: 10px 10px 20px 1px #392714;
+  transition: 0.5s;
+}
+
+.title {
+  color: hsl(31, 48%, 15%);
+  font-family: Dancing Script;
+  font-size: 43px;
+  display: block;
+  margin: 10px auto;
+  font-weight: 700;
+  text-align: center;
+}
+/* Small devices (Mobiles, Less than 500px) */
+/* Small devices (Mobiles, Less than 500px) */
+@media screen and (min-width:0px) and (max-width: 500px) {
+  .box {
     background-color: white;
     display: block;
     margin: auto;
     padding: 20px;
     border: 20px solid #d7b48e;
 
-    font-size: 40px;
+    font-size: 20px;
     color: white;
-    display: block;
-    margin:  auto;
-    padding: 40px;
-    text-align: center;
-    
-  } 
-  @media screen and (max-width: 500px) {
-    .box{
-      background-color: white;
-      display: block;
-      margin: auto;
-      padding: 20px;
-      border: 20px solid #d7b48e;
-  
-      font-size: 20px;
-      color: white;
-      display: block;
-      margin:  auto;
-      padding: 20px;
-      text-align: center;
-      
-    } 
-  }
-.Jwellery-model{
-   width: 500px;
-    height: 800px;
-    display: block;
-    margin: auto;
-    border-radius: 50px;
-    box-shadow: -2px 5px 23px 13px  #392714;
-
-  } 
-  @media screen and (max-width: 500px) {
-    .Jwellery-model{
-      width: 300px;
-       height: 400px;
-       display: block;
-       margin: auto;
-       border-radius: 50px;
-       box-shadow: -2px 5px 23px 13px  #392714;
-   
-     } 
-    }
-  .Jwellery-model:hover{
-   transition: 0.3s;
-   border-radius: 10px;
-   size: 100px;
-   box-shadow: 10px 10px 20px 1px #392714;
-  }
-
- .text{
-    color: hsl(31, 48%, 15%);
-    font-family: Dancing Script;
-    font-size: 43px;
-   }
-   @media screen and (max-width: 500px) {
-    .text{
-      color: hsl(31, 48%, 15%);
-      font-family: Dancing Script;
-      font-size: 30px;
-     }
-    }
-   .box2{
     display: block;
     margin: auto;
     padding: 20px;
-    border-radius: 5px;
-    border: double 5px #d7b48e;
-    
-   }
-   .Jwellery-img{
-    width: 500px;
-    height: 280px;
+    text-align: center;
+
+  }
+}
+@media screen and (min-width:0px) and (max-width: 500px) {
+  .Jwellery-model {
+    width: 250px;
+    height: 300px;
     display: block;
-    margin: 10px auto;
-    border-radius: 10px;
-   }
-   @media screen and (max-width: 500px) {
-    .Jwellery-img{
-      width: 300px;
-      height: 180px;
-      display: block;
-      margin: 5px auto;
-      border-radius: 10px;
-     }
-    }
-   .Jwellery-img:hover{
-    border-radius: 60px;
-    box-shadow: 10px 10px 20px 1px #392714;
-    transition: 0.5s;
-   }
-   .title{
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: -2px 5px 23px 13px #392714;
+
+  }
+}
+
+@media screen and (min-width:0px) and (max-width: 500px) {
+  .text {
     color: hsl(31, 48%, 15%);
     font-family: Dancing Script;
-    font-size: 43px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width:0px) and (max-width: 500px) {
+  .Jwellery-img {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width:0px) and (max-width: 500px) {
+  .title {
+    color: hsl(31, 48%, 15%);
+    font-family: Dancing Script;
+    font-size: 35px;
     display: block;
     margin: 10px auto;
     font-weight: 700;
     text-align: center;
-   }
-   @media screen and (max-width: 500px) {
-    .title{
-      color: hsl(31, 48%, 15%);
-      font-family: Dancing Script;
-      font-size: 35px;
-      display: block;
-      margin: 10px auto;
-      font-weight: 700;
-      text-align: center;
-     }
-    }   
+  }
+}
+
+/* Small devices (Tabs, 500px to 800px) */
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .box {
+    background-color: white;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    border: 20px solid #d7b48e;
+
+    font-size: 30px;
+    color: white;
+    display: block;
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .Jwellery-model {
+    width: 400px;
+    height: 500px;
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: -2px 5px 23px 13px #392714;
+
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .text {
+    color: hsl(31, 48%, 15%);
+    font-family: Dancing Script;
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 800px) {
+  .Jwellery-img {
+    width: 350px;
+    height: 250px;
+    display: block;
+    margin: 5px auto;
+    border-radius: 10px;
+  }
+}
